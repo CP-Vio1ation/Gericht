@@ -1,0 +1,507 @@
+body{
+        font-family: 'Cormorant Upright', serif;
+        overflow-x: hidden;
+        background-color: #040404;
+}
+
+*{
+        box-sizing: border-box;
+}
+
+.gericht-title{
+        font-weight: 600;
+        font-size: 64px;
+        line-height: 130%;
+        color: #DCCA87;
+        letter-spacing: 0.03em;
+}        
+
+.small-gericht-title{
+        font-weight: 700;
+        font-size: 23px;
+        line-height: 130%;
+        color: #FFFFFF;
+        letter-spacing: 0.04em;
+}
+
+
+.gericht-text{
+        font-family: 'Open Sans';
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 175%;
+        letter-spacing: 0.04em;
+        color: #AAAAAA;
+}
+
+.gericht-button{
+        width: 133px;
+        height: 44px;
+        align-items: center;
+        padding: 8px 32px;
+        gap: 10px;
+        background: #DCCA87;
+        border: 1px solid #DCCA87;
+        color: #0C0C0C;
+        font-weight: 700;
+}
+
+
+/* Header */
+
+.header{
+        background-color: #040404;
+}
+
+.header-nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+}
+
+.header-logo{
+        margin: 32px 0px 32px 120px;
+}
+
+.header-list{
+        display: flex;
+}
+
+.header-item{
+        padding-left: 32px;
+        margin: 46px 0px;
+        font-family: 'Open Sans';
+        line-height: 175%;
+        letter-spacing: 0.04em;
+}
+
+.header-item:first-child{
+        padding: 0;
+}
+
+.header-link{
+        margin: 47px 120px 47px 0px;
+}
+
+.list-link{
+        padding-left: 40px;
+        font-weight: 600;
+        letter-spacing: 0.05em;      ;
+}
+
+.list-link:first-child{
+        padding: 0;
+}
+
+a{      color: #ffffff;
+        text-decoration: none;
+}
+
+.header-img{
+        margin: 0px 643px 0px 643px;
+        position: relative;
+}
+
+.header-title{
+        font-size: 181px;
+        line-height: 130%;
+        color: #ffffff;
+        position: absolute;
+        left: 426px;
+        top: 440px;
+        letter-spacing: 0.05em;
+}
+
+/* Section */
+
+
+.section-reservations{
+        margin: 152px 278px;
+        background: #0C0C0C;
+        border: 1px solid rgba(220, 202, 135, 0.2);
+}
+
+.section-reservations h1{
+        text-align: center;
+        padding-top: 25px;
+}
+
+.section-reservations h4{
+        padding: 48px 620px 0px 620px;
+}
+
+.buttons{ 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 64px 32px;
+        gap: 64px;
+}
+
+.reservations-form{
+        width: 412px;
+        height: 60px;
+        border: 1px solid #F5EFDB;
+        background-color: #040404;
+        color: #AAAAAA;
+        font-weight: 600;
+}
+
+.section-reservations a{
+        margin: 0px 615px 48px 615px;
+        display: flex;
+}
+
+
+/* */
+
+
+.about-us{
+        display: flex;
+        gap: 143px;
+}
+
+.about-us > img{
+        margin-top: 126px;
+        margin-left: 310px;
+}
+
+.page-info h1{
+        padding-top: 25px;
+}
+
+
+.page-info h4{
+        padding-top: 40px;
+}
+
+.page-info p {
+        padding-top: 32px;
+}
+
+.page-info a{
+        margin-top: 40px;
+        width: 141px;
+        display: flex;
+}
+
+/*  */
+
+
+.photo-bar{
+        margin-top: 201px;
+}
+
+
+.photo-bar h4{
+        text-align: center;
+}
+
+.photo-bar > h1{
+        padding-top: 25px;
+        text-align: center;
+        letter-spacing: 0.04em;
+}        
+    
+.photos{
+        display: flex;
+        gap: 34px;
+        margin: 55px 311px;}
+
+
+/* */        
+
+.Happy-hours{
+        background-image: url(../img/rinck-content-studio-EbScFvDFhx0-unsplash.png);
+        width: 1920;
+        height: 900px;
+        margin-top: 152px;
+}
+
+.happy-titles{
+        padding: 330px 610px;
+}
+
+
+.happy-titles h1{
+        font-size: 128px;
+        letter-spacing: 0em;
+}
+
+.happy-titles h4{
+        font-size: 32px;
+        padding-top: 32px;
+        text-align: center;
+}
+
+
+/* */
+
+.special{   
+        margin: 152px 0px; 
+}
+
+.special h4{
+        margin: 0px 826px;
+}
+
+.special h1 {
+        margin: 25px 768px 0px 768px;
+        letter-spacing: 0em;
+}
+
+.special > a {
+        margin: 65px 892px 0px 892px;
+        display: flex; 
+}
+
+
+.wine-beer{
+        margin: 96px 0px 0px 310px;
+}
+
+.wine-beer h2{
+        font-size: 45px;
+        
+        
+}
+
+.wine-item{
+        font-weight: 700;
+        font-size: 23px;
+        line-height: 130%;
+        color: #DCCA87;
+        padding-top: 41px;
+}
+
+.cocktails h2{
+        font-size: 45px;
+}
+
+.menu-list > .wine-item{
+        padding: 0;
+}
+
+.menu-list{
+        padding-top: 48px;
+}
+
+.menu-list .gericht-text{
+        padding-top: 8px;
+}
+
+.menu-bar{
+        display: flex;
+        justify-content: space-between;
+}
+
+.menu-bar > img{
+        margin-top: 64px;
+        padding-left: 120px;
+}
+
+.cocktails{
+        margin: 96px 310px 0px 0px;
+}
+
+
+/* */
+
+.contact{
+        margin: 128px 0px 181px 0px;
+}
+
+.find-us{
+        display: flex;
+        justify-content: space-between;
+}
+.info{
+        margin: 124px 0px 0px 310px;
+}
+
+.info h1{
+        padding-top: 25px;
+}
+
+.find-us img {
+        margin-right: 310px;
+}
+
+.info p{
+        padding-top: 44px;
+}
+
+.info h4{
+        padding-top: 32px;
+        color: #DCCA87;
+}
+
+.contact-list{
+        margin-top: 16px;
+}
+
+.contact-list > li:last-child{
+        padding-top: 16px;
+}
+
+.info > ul > li{
+        font-family: 'Open Sans';
+        line-height: 175%;
+        color: #FFFFFF;
+}
+
+.info a{
+        margin-top: 52px;
+        display: flex;
+}
+
+
+/* footer */
+
+
+.footer{
+        margin-top: 99px;
+}
+
+
+.footer-subscribe {
+        margin: 0px 310px 128px 310px;
+
+}
+
+.footer-subscribe h4{
+        padding: 0px 598px;
+}
+
+.footer-subscribe h1{
+        padding: 25px 262px 0px;
+}
+
+.footer-subscribe p{
+        padding-top: 24px;
+        text-align: center;
+        color: #FFFFFF;
+}
+.email{
+        width: 635px;
+        height: 40px;
+        border: 1px solid #F5EFDB;
+        margin: 64px 0px 0px 252px;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 175%; 
+}
+
+.footer-subscribe a{
+        font-weight: 700;
+        margin-left: 32px;
+}
+
+.footer-info{
+        display: flex;
+        justify-content: space-between;
+        margin: 128px 310px 82px 310px;
+}
+
+
+.footer-contact-title{
+        padding-top: 25px;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 130%;
+        color: #F5EFDB;
+        text-align: center;
+}
+
+.address{
+        padding-top: 24px;
+           
+}
+
+.phone{
+        font-family: 'Open Sans';
+        color: #AAAAAA;
+        letter-spacing: 0.04em;
+        padding-left: 70px;
+}
+
+.Gericht-contact{
+        margin: 0px 228px 0px 126px;
+}
+
+.Gericht-contact > h1{
+        text-transform: uppercase;
+        text-align: center;
+        letter-spacing: 0.04em;
+}
+
+.Gericht-contact p {
+        padding-top: 32px;
+        text-align: center;
+        white-space: pre-line;
+}
+
+.social-icons{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+
+.footer-icons{
+        padding: 42px 0px 0px 19px;     
+}
+
+.hours p{
+        padding-top: 24px;
+        text-align: center;
+}
+
+.hours p:nth-child(4) {
+        padding-top: 8px;
+        text-align: center;
+}
+
+.copyright{
+        text-align: center;
+}
+
+
+/* animation */
+
+.gericht-button:hover{
+        color: #ffffff;
+        background-color: rgb(0, 0, 0);
+        transition: 1s
+}
+
+.reservations-form:focus{
+        background-color:#DCCA87;
+        color: #040404;
+}
+
+
+@keyframes anim-1 {
+        0%{
+                transform: scale(0.5);
+        }
+
+        50%{
+                transform: scale(1);
+        } 
+}
+
+.about-us img:hover{
+        animation-name: anim-1;
+        animation-duration: 4s;
+        animation-direction: alternate;
+}
+
+a:hover{
+        color: #DCCA87;
+        text-decoration: underline;
+}
+
+.email:focus{
+        background-color:#DCCA87;
+        color: #040404;
+}
